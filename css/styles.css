@@ -1,7 +1,8 @@
 body {
   background-color: black;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  color: white;
 }
 
 .wrapper {
@@ -12,7 +13,6 @@ body {
 header {
   overflow: auto;
   background: black;
-  color: white;
 }
 
 header img {
@@ -63,10 +63,33 @@ nav ul li:hover {
   display: inline-block;
 }
 
-#column1 {
-
+h2, h3, p, hr {
+  margin: 10px 20px;
 }
 
-#column2 {
-
+#menu {
+  text-align: center;
 }
+
+.picture {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  padding: 0 5px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .5s ease;
+}
+
+.picture:hover {
+    cursor: pointer;
+    background-size: 150% 150%;
+}
+
+#picture1 { background-image: url(../img/1.jpg); }
+#picture2 { background-image: url(../img/2.jpg); }
+#picture3 { background-image: url(../img/3.jpg); }
+#picture4 { background-image: url(../img/4.jpg); }
+#picture5 { background-image: url(../img/5.jpg); }
+#picture6 { background-image: url(../img/6.jpg); }
