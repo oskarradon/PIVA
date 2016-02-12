@@ -9,7 +9,7 @@ body {
   width: 1000px;
   margin: auto;
 }
-
+  /*HEADER*/
 header {
   overflow: auto;
   background: black;
@@ -37,6 +37,7 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+  /*JUMBO*/
 #main {
   width: 100%;
   height: 500px;
@@ -55,6 +56,12 @@ nav ul li:hover {
   font-weight: 400;
  }
 
+  /*COLUMNS*/
+
+.piva {
+  color: #C02026;
+}
+
 .column {
   background-color: #182022;
   height: 600px;
@@ -68,27 +75,30 @@ nav ul li:hover {
 h2, h3, p, hr, button{
   margin: 10px 20px;
 }
+
 h2, h3 {
   font-weight: 400;
-}
-#menu {
-  text-align: center;
+  color: #727272;
 }
 
+hr {
+  width: 50%;
+}
+
+  /*GALLERY*/
 .picture {
   display: inline-block;
   width: 218.5px;
   height: 143.5px;
   margin: 20px 0 0 20px;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
   background-position: center center;
-  transition: all .5s ease;
+  transition: all 400ms ease;
 }
 
 .picture:hover {
-    cursor: pointer;
-    background-size: 150% 150%;
+  cursor: pointer;
+  background-size: 150% 150%;
 }
 
 #picture1 { background-image: url(../img/1.jpg); }
