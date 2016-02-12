@@ -6,7 +6,7 @@
 
 ## Description
 
-_A non-responsive webpage that showcases a product for sale.
+A non-responsive webpage that showcases a product for sale.
 
 It must include:
 
@@ -14,7 +14,7 @@ It must include:
 - A list or summary of features (lorem ipsum is fine)
 - At least one large image with an absolutely positioned caption (example)
 - At least one table or form field styled with CSS (e.g. sizing chart, color options, order form…)
-- A gallery of smaller images (e.g. similar products...)_
+- A gallery of smaller images (e.g. similar products...)
 
 ## Setup/Installation Requirements
 
