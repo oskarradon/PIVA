@@ -10,6 +10,7 @@ body {
   margin: auto;
 }
   /*HEADER*/
+
 header {
   overflow: auto;
   background: black;
@@ -38,6 +39,7 @@ nav ul li:hover {
 }
 
   /*JUMBO*/
+
 #main {
   width: 100%;
   height: 500px;
@@ -56,7 +58,11 @@ nav ul li:hover {
   font-weight: 400;
  }
 
-  /*COLUMNS*/
+  /*MAIN CONTENT*/
+
+article {
+  float: left;
+}
 
 .piva {
   color: #C02026;
@@ -64,15 +70,16 @@ nav ul li:hover {
 
 .column {
   background-color: #182022;
-  height: 600px;
+  height: 610px;
   width: 500px;
   float: left;
   margin: 0;
   padding-top: 40px;
   display: inline-block;
+  overflow: auto;
 }
 
-h2, h3, p, hr, button{
+h2, h3, p, hr, button, a {
   margin: 10px 20px;
 }
 
@@ -81,11 +88,26 @@ h2, h3 {
   color: #727272;
 }
 
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
 hr {
   width: 50%;
 }
 
+a:hover {
+  color: #C02026;
+  cursor: pointer;
+}
+
+a.right {
+  float: right;
+}
+
   /*GALLERY*/
+
 .picture {
   display: inline-block;
   width: 218.5px;
@@ -107,3 +129,10 @@ hr {
 #picture4 { background-image: url(../img/4.jpg); }
 #picture5 { background-image: url(../img/5.jpg); }
 #picture6 { background-image: url(../img/6.jpg); }
+
+button {
+  /*color: white;*/
+  border-radius: 0px;
+  background-color: white;
+  width: 100px;
+}
