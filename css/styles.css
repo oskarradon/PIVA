@@ -73,15 +73,15 @@ h2, h3, p, hr {
 
 .picture {
   display: inline-block;
-  width: 150px;
-  height: 100px;
-  padding: 0 5px;
+  width: 218.5px;
+  height: 143.5px;
+  margin: 20px 0 0 20px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
   transition: all .5s ease;
 }
-
+/* this animation doesnt work for some reason - giant images? */
 .picture:hover {
     cursor: pointer;
     background-size: 150% 150%;
