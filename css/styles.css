@@ -9,6 +9,7 @@ body {
   width: 1000px;
   margin: auto;
 }
+
   /*HEADER*/
 
 header {
@@ -62,6 +63,7 @@ nav ul li:hover {
 
 article {
   float: left;
+  margin-bottom: 35px;
 }
 
 .piva {
@@ -70,7 +72,7 @@ article {
 
 .column {
   background-color: #182022;
-  height: 610px;
+  height: 640px;
   width: 500px;
   float: left;
   margin: 0;
@@ -135,4 +137,32 @@ button {
   border-radius: 0px;
   background-color: white;
   width: 100px;
+}
+
+  /*FOOTER*/
+
+footer {
+  float:left;
+  height: 400px;
+  width: 1000px;
+  background-image: url(../img/space.jpg);
+  background-size: 100% auto;
+  background-position: top;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 70px 0 0 650px;
+}
+
+form {
+  position: absolute;
+}
+
+form a {
+  display: block;
+  margin: 20px 0 0 650px;
 }
