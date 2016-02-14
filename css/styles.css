@@ -63,7 +63,7 @@ nav ul li:hover {
 
 article {
   float: left;
-  margin-bottom: 35px;
+  margin-bottom: 42px;
 }
 
 .piva {
@@ -87,7 +87,6 @@ h2, h3, p, hr, button, a {
 
 h2, h3 {
   font-weight: 400;
-  color: #727272;
 }
 
 p {
@@ -95,8 +94,10 @@ p {
   line-height: 1.5em;
 }
 
-hr {
-  width: 50%;
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+  display: inline;
 }
 
 a:hover {
