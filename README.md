@@ -18,7 +18,7 @@ It must include:
 
 ## Setup/Installation Requirements
 
-_Download it as a zip/clone it, and check it out!_
+_View it [here](https://oskarradon.github.io/product-page/) on GitHub Pages or download it as a zip/clone it, and check it out!_
 
 ## Technologies Used
 
