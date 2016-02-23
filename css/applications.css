@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: white; }
+
+.wrapper {
+  width: 1000px;
+  margin: auto; }
+
+/*HEADER*/
+header {
+  overflow: auto;
+  background: black; }
+
+header img {
+  float: left;
+  width: 75px;
+  vertical-align: middle;
+  margin: 32px 0 30px 20px; }
+
+nav {
+  float: right; }
+
+nav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px; }
+
+nav ul li:hover {
+  color: #C02026;
+  cursor: pointer; }
+
+/*JUMBO*/
+#main {
+  width: 100%;
+  height: 500px;
+  background: url("../img/you.jpg") top/100%;
+  text-align: center; }
+
+#main img {
+  width: 200px;
+  margin: 50px 0 30px 0; }
+
+h1 {
+  margin: 0;
+  color: white;
+  font-weight: 400; }
+
+/*MAIN CONTENT*/
+article {
+  float: left;
+  margin-bottom: 42px; }
+
+.piva {
+  color: #C02026; }
+
+.column {
+  background-color: #182022;
+  height: 640px;
+  width: 500px;
+  float: left;
+  margin: 0;
+  padding-top: 40px;
+  display: inline-block;
+  overflow: auto; }
+
+h2, h3, p, hr, button, a {
+  margin: 10px 20px; }
+
+h2, h3 {
+  font-weight: 400; }
+
+p {
+  font-weight: 300;
+  line-height: 1.5em; }
+
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+  display: inline; }
+
+a:hover {
+  color: #C02026;
+  cursor: pointer; }
+
+a.right {
+  float: right; }
+
+/*GALLERY*/
+.picture {
+  display: inline-block;
+  width: 218.5px;
+  height: 143.5px;
+  margin: 20px 0 0 20px;
+  background-size: 100% 100%;
+  background-position: center center;
+  transition: all 400ms ease; }
+
+.picture:hover {
+  cursor: pointer;
+  background-size: 150% 150%; }
+
+#picture1 {
+  background-image: url(../img/1.jpg); }
+
+#picture2 {
+  background-image: url(../img/2.jpg); }
+
+#picture3 {
+  background-image: url(../img/3.jpg); }
+
+#picture4 {
+  background-image: url(../img/4.jpg); }
+
+#picture5 {
+  background-image: url(../img/5.jpg); }
+
+#picture6 {
+  background-image: url(../img/6.jpg); }
+
+button {
+  /*color: white;*/
+  border-radius: 0px;
+  background-color: white;
+  width: 100px; }
+
+/*FOOTER*/
+footer {
+  float: left;
+  height: 400px;
+  width: 100%;
+  /*margin I can't get rid of*/
+  background-image: url(../img/space.jpg);
+  background-size: 100% auto;
+  background-position: top; }
+
+input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 90px 0 0 800px; }
+
+form {
+  position: absolute; }
+
+form a {
+  display: block;
+  margin: 20px 0 0 800px; }
+
+/*# sourceMappingURL=applications.css.map */
