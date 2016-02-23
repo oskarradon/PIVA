@@ -1,18 +1,69 @@
 /*
-Sass::SyntaxError: "a.right" failed to @extend "%r-float".
-The selector "%r-float" was not found.
-Use "@extend %r-float !optional" if the extend should be able to fail.
+Error: Invalid CSS after "%font-weight ": expected selector, was "- 100"
+        on line 21 of scss/components/_typography.scss
+        from line 2 of scss/applications.scss
 
+16: 
+17: // .wrapper {
+18: //   width: 1000px;
+19: //   margin: auto;
+20: // }
+21: 
+22:   /*HEADER*\/
+23: //
+24: // header {
+25: //   overflow: auto;
+26: //   background: black;
 
 Backtrace:
-scss/components/_typography.scss:40
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/extend.rb:62:in `block in check_extends_fired!'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/util/subset_map.rb:105:in `block in each_value'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/util/subset_map.rb:105:in `each'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/util/subset_map.rb:105:in `each_value'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/extend.rb:16:in `visit'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:39:in `css_tree'
+scss/components/_typography.scss:21
+scss/applications.scss:2
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/static_parser.rb:21:in `parse_selector'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:250:in `visit_extend'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
@@ -32,4 +83,4 @@ scss/components/_typography.scss:40
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Sass::SyntaxError: \"a.right\" failed to @extend \"%r-float\".\A The selector \"%r-float\" was not found.\A Use \"@extend %r-float !optional\" if the extend should be able to fail.\A "; }
+  content: "Error: Invalid CSS after \"%font-weight \": expected selector, was \"- 100\"\A         on line 21 of scss/components/_typography.scss\A         from line 2 of scss/applications.scss\A \A 16: \A 17: // .wrapper {\A 18: //   width: 1000px;\A 19: //   margin: auto;\A 20: // }\A 21: \A 22:   /*HEADER*/\A 23: //\A 24: // header {\A 25: //   overflow: auto;\A 26: //   background: black;"; }

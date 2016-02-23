@@ -36,12 +36,11 @@
   }
 }
 
-#picture1 { background-image: url(#{$path-img}/1.jpg); }
-#picture2 { background-image: url(#{$path-img}/2.jpg); }
-#picture3 { background-image: url(#{$path-img}/3.jpg); }
-#picture4 { background-image: url(#{$path-img}/4.jpg); }
-#picture5 { background-image: url(#{$path-img}/5.jpg); }
-#picture6 { background-image: url(#{$path-img}/6.jpg); }
+@for $i from 1 through 6 {
+  #picture#{$i} {
+    background-image: url(#{$path-img}/#{$i}.jpg);
+  }
+}
 
 article {
    @extend %l-float;
