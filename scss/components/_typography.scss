@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 h1 {
  margin: 0;
  color: white;
@@ -22,13 +23,13 @@ p {
 }
 
 h2 {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid $white;
   padding-bottom: 4px;
   display: inline;
 }
 
 a:hover {
-  color: #C02026;
+  color: $color-cardinal;
   cursor: pointer;
 }
 
@@ -37,5 +38,5 @@ a.right {
 }
 
 .piva {
-  color: #C02026;
+  color: $color-cardinal;
 }
