@@ -1,10 +1,10 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $stack-sans-serif;
 }
 
 h1 {
  margin: 0;
- color: white;
+ color: $color-text;
  font-weight: 400;
 }
 
@@ -20,6 +20,9 @@ h2, h3 {
 p {
   font-weight: 300;
   line-height: 1.5em;
+  .piva {
+    color: $color-main-red;
+  }
 }
 
 h2 {
@@ -34,9 +37,5 @@ a:hover {
 }
 
 a.right {
-  float: right;
-}
-
-.piva {
-  color: $color-main-red;
+  @extend %r-float;
 }
