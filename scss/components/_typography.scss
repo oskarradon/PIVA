@@ -23,13 +23,13 @@ p {
 }
 
 h2 {
-  border-bottom: 2px solid $white;
+  border-bottom: 2px solid $color-text;
   padding-bottom: 4px;
   display: inline;
 }
 
 a:hover {
-  color: $color-cardinal;
+  color: $color-main-red;
   cursor: pointer;
 }
 
@@ -38,5 +38,5 @@ a.right {
 }
 
 .piva {
-  color: $color-cardinal;
+  color: $color-main-red;
 }

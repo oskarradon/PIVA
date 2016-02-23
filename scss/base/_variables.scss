@@ -1,8 +1,13 @@
 // Descriptive Color Variables
 
-$white : #ffffff;
-$black : #000000;
-$color-cardinal : #C02026;
-$color-shark : #182022;
+$white    : #ffffff;
+$black    : #000000;
+$cardinal : #C02026;
+$shark    : #182022;
 
 // Functional Color Variables
+
+$color-text           : $white;
+$color-background     : $black;
+$color-main-red       : $cardinal;
+$color-div-background : $shark;
