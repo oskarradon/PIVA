@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+ margin: 0;
+ color: white;
+ font-weight: 400;
+}
+
+
+h2, h3, p, hr, button, a {
+  margin: 10px 20px;
+}
+
+h2, h3 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+  display: inline;
+}
+
+a:hover {
+  color: #C02026;
+  cursor: pointer;
+}
+
+a.right {
+  float: right;
+}
+
+.piva {
+  color: #C02026;
+}

@@ -1,69 +1,10 @@
 body {
-  background-color: black;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  color: white; }
-
-.wrapper {
-  width: 1000px;
-  margin: auto; }
-
-/*HEADER*/
-header {
-  overflow: auto;
-  background: black; }
-
-header img {
-  float: left;
-  width: 75px;
-  vertical-align: middle;
-  margin: 32px 0 30px 20px; }
-
-nav {
-  float: right; }
-
-nav ul li {
-  float: left;
-  list-style: none;
-  margin: 20px; }
-
-nav ul li:hover {
-  color: #C02026;
-  cursor: pointer; }
-
-/*JUMBO*/
-#main {
-  width: 100%;
-  height: 500px;
-  background: url("../img/you.jpg") top/100%;
-  text-align: center; }
-
-#main img {
-  width: 200px;
-  margin: 50px 0 30px 0; }
+  font-family: 'Roboto', sans-serif; }
 
 h1 {
   margin: 0;
   color: white;
   font-weight: 400; }
-
-/*MAIN CONTENT*/
-article {
-  float: left;
-  margin-bottom: 42px; }
-
-.piva {
-  color: #C02026; }
-
-.column {
-  background-color: #182022;
-  height: 640px;
-  width: 500px;
-  float: left;
-  margin: 0;
-  padding-top: 40px;
-  display: inline-block;
-  overflow: auto; }
 
 h2, h3, p, hr, button, a {
   margin: 10px 20px; }
@@ -87,7 +28,60 @@ a:hover {
 a.right {
   float: right; }
 
-/*GALLERY*/
+.piva {
+  color: #C02026; }
+
+body {
+  background-color: black;
+  box-sizing: border-box;
+  color: white; }
+
+.wrapper {
+  width: 1000px;
+  margin: auto; }
+
+header {
+  overflow: auto;
+  background: black; }
+
+header img {
+  float: left;
+  width: 75px;
+  vertical-align: middle;
+  margin: 32px 0 30px 20px; }
+
+nav {
+  float: right; }
+
+nav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px; }
+
+nav ul li:hover {
+  color: #C02026;
+  cursor: pointer; }
+
+#main {
+  width: 100%;
+  height: 500px;
+  background: url("../img/you.jpg") top/100%;
+  text-align: center; }
+
+#main img {
+  width: 200px;
+  margin: 50px 0 30px 0; }
+
+.column {
+  background-color: #182022;
+  height: 640px;
+  width: 500px;
+  float: left;
+  margin: 0;
+  padding-top: 40px;
+  display: inline-block;
+  overflow: auto; }
+
 .picture {
   display: inline-block;
   width: 218.5px;
@@ -119,13 +113,10 @@ a.right {
 #picture6 {
   background-image: url(../img/6.jpg); }
 
-button {
-  /*color: white;*/
-  border-radius: 0px;
-  background-color: white;
-  width: 100px; }
+article {
+  float: left;
+  margin-bottom: 42px; }
 
-/*FOOTER*/
 footer {
   float: left;
   height: 400px;
@@ -148,5 +139,11 @@ form {
 form a {
   display: block;
   margin: 20px 0 0 800px; }
+
+/*HEADER*/
+/*JUMBO*/
+/*MAIN CONTENT*/
+/*GALLERY*/
+/*FOOTER*/
 
 /*# sourceMappingURL=applications.css.map */

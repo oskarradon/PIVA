@@ -1,0 +1,27 @@
+
+header {
+  overflow: auto;
+  background: black;
+}
+
+header img {
+  float: left;
+  width: 75px;
+  vertical-align: middle;
+  margin: 32px 0 30px 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li:hover {
+  color: #C02026;
+  cursor: pointer;
+}
