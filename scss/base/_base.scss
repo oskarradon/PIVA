@@ -2,4 +2,36 @@ body {
   background-color: $color-background;
   box-sizing: border-box;
   color: $color-text;
+  font-family: $stack-sans-serif;
+}
+
+h1 {
+ margin: 0;
+ color: $color-text;
+}
+
+h2, h3, p, hr, button, a {
+  margin: 10px 20px;
+}
+
+p {
+  line-height: 1.5em;
+  .piva {
+    color: $color-main-red;
+  }
+}
+
+h2 {
+  border-bottom: 2px solid $color-text;
+  padding-bottom: 4px;
+  display: inline;
+}
+a {
+  &:hover {
+    color: $color-main-red;
+    cursor: pointer;
+  }
+  &.right {
+    float: right;
+  }
 }

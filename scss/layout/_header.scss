@@ -5,7 +5,7 @@ header {
 }
 
 header img {
-  @extend %l-float;
+  float: left;
   width: 75px;
   vertical-align: middle;
   margin: 32px 0 30px 20px;
@@ -16,7 +16,7 @@ nav {
 }
 
 nav ul li {
-  @extend %l-float;
+  float: left;
   list-style: none;
   margin: 20px;
 }

@@ -1,9 +1,9 @@
 
 footer {
-  @extend %l-float;
+  float: left;
   height: 400px;
   width: 100%; /*margin I can't get rid of*/
-  background-image: url(#{$path-img}/space.jpg);
+  background-image: url(../img/space.jpg);
   background-size: 100% auto;
   background-position: top;
 }
