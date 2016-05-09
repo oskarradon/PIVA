@@ -3,18 +3,6 @@ Error: Invalid CSS after "%font-weight ": expected selector, was "- 100"
         on line 21 of scss/components/_typography.scss
         from line 2 of scss/applications.scss
 
-16: 
-17: // .wrapper {
-18: //   width: 1000px;
-19: //   margin: auto;
-20: // }
-21: 
-22:   /*HEADER*\/
-23: //
-24: // header {
-25: //   overflow: auto;
-26: //   background: black;
-
 Backtrace:
 scss/components/_typography.scss:21
 scss/applications.scss:2
@@ -83,4 +71,4 @@ scss/applications.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"%font-weight \": expected selector, was \"- 100\"\A         on line 21 of scss/components/_typography.scss\A         from line 2 of scss/applications.scss\A \A 16: \A 17: // .wrapper {\A 18: //   width: 1000px;\A 19: //   margin: auto;\A 20: // }\A 21: \A 22:   /*HEADER*/\A 23: //\A 24: // header {\A 25: //   overflow: auto;\A 26: //   background: black;"; }
+  content: "Error: Invalid CSS after \"%font-weight \": expected selector, was \"- 100\"\A         on line 21 of scss/components/_typography.scss\A         from line 2 of scss/applications.scss"; }
